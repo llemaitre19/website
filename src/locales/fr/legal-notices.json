@@ -1,0 +1,14 @@
+{
+  "develem": {
+    "address": "Adresse",
+    "email": "Email",
+    "phone": "Téléphone",
+    "siret": "Numéro de Siret"
+  },
+  "title": "Mentions légales",
+  "website": {
+    "creation": "Création et maintenance",
+    "host": "Hébergeur",
+    "title": "Site web"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "develem": {
+    "address": "Address",
+    "email": "Email",
+    "phone": "Phone",
+    "siret": "Siret number"
+  },
+  "title": "Legal notices",
+  "website": {
+    "creation": "Creation and maintenance",
+    "host": "Host",
+    "title": "Website"
+  }
+}

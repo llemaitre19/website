@@ -1,0 +1,38 @@
+{
+  "content-title": "Bienvenue !",
+  "commitments": {
+     "confidentiality": "Confidentialité",
+    "quality-code": "Code de qualité : extensible, maintenable, performant, respect de bonnes pratiques.",
+    "specs-respect": "Respect des spécifications et des délais.",
+    "title": "Engagements"
+  },
+  "job": {
+    "intro": "Je propose mes services de développeur dans des domaines suivants :",
+    "desktop-app": "Applications de bureau.",
+    "low-level": "Programmation bas niveau.",
+    "title": "Développeur Full Stack Freelance",
+    "web-app": "Applications Web."
+  },
+  "services": {
+    "assignment": {
+      "info": "Prestations longues.",
+      "main": "Mission : je mets mes compétences à la disposition du client pour une durée déterminée."
+    },
+    "quotation": {
+      "info": "Prestations au contenu et au périmètre bien définis.",
+      "main": "Sur devis : après avoir défini les besoins, j'établis un chiffrage pour la réalisation de la prestation que je m'engage à respecter."
+    },
+    "time-spent": {
+      "info": "Prestations courtes.",
+      "main": "Au temps passé : la prestation est facturée en fonction du temps de réalisation."
+    },
+    "title": "Modes de prestation"
+  },
+  "skills": {
+    "cpp": "C++",
+    "javascript": "Javascript / Typescript",
+    "others": "Autres : C, Lisp.",
+    "python": "Python",
+    "title": "Compétences techniques principales"
+  }
+}

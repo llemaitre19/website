@@ -1,0 +1,13 @@
+{
+  "job": "Développeur Full Stack Freelance",
+  "language": {
+    "en": "English",
+    "fr": "Français",
+    "title": "Langue :"
+  },
+  "theme": {
+    "dark": "Sombre",
+    "light": "Clair",
+    "title": "Thème :"
+  }
+}

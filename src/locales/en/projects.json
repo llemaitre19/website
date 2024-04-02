@@ -1,0 +1,15 @@
+{
+  "content-title": "Open-Source projects",
+  "jtsx": {
+    "description": "JSX/TSX extension for <comp /> to edit JSX code more efficiently.",
+    "package-manager": "Available in the <comp /> package manager.",
+    "repository": "Code published on <comp />.",
+    "title": "jtsx package for Emacs"
+  },
+  "website": {
+    "gatsby": "Based on <comp /> in TSX (Typescript + JSX).",
+    "pre-rendered": "Pages pre-rendered at build time.",
+    "repository": "Code published on <comp />.",
+    "title": "This website"
+  }
+}

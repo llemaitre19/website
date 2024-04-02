@@ -1,0 +1,19 @@
+{
+  "backend": {
+    "django": ": Python-based Web framework.",
+    "drf": ": Rest API Rest for Django.",
+    "title": "Backend"
+  },
+  "content-intro": "Creation of customized web applications, using SPA (Single Page Application) architecture.",
+  "content-title": "Web development",
+  "database": {
+    "postgresql": ": SQL relational database.",
+    "title": "Database"
+  },
+  "frontend": {
+    "mui": ": graphic components.",
+    "react": "Javascript / Typescript UI.",
+    "redux": ": state management.",
+    "title": "Frontend"
+  }
+}

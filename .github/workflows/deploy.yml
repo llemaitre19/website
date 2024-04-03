@@ -11,3 +11,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: enriikke/gatsby-gh-pages-action@v2
+        with:
+          access-token: x-access-token:${{ secrets.GITHUB_TOKEN }}

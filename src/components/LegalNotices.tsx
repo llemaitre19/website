@@ -62,7 +62,7 @@ function LegalNotices(props: LegalNoticesProps) {
           {t('common:phone-index')}
           6 62 57 34 88
         </NoticeItem>
-        <NoticeItem title={t('legal-notices:develem.email')}>develem19@gmail.com</NoticeItem>
+        <NoticeItem title={t('legal-notices:develem.email')}>loic.lemaitre@develem.fr</NoticeItem>
         <NoticeItem title={t('legal-notices:develem.address')}>19500 Collonges-La-Rouge — France</NoticeItem>
       </NoticeSection>
     </Modal>

@@ -38,7 +38,7 @@ function Footer() {
           </div>
           <span>
             <FaIcon className={iconClass} icon={faEnvelope} />
-            <a href="mailto:develem19@gmail.com">develem19@gmail.com</a>
+            <a href="mailto:loic.lemaitre@develem.fr">loic.lemaitre@develem.fr</a>
           </span>
           <span>
             <FaIcon className={iconClass} icon={faPhone} />

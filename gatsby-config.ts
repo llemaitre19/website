@@ -72,6 +72,11 @@ const config: GatsbyConfig = {
         ns: ['header', 'navigation'],
       },
     },
+  }, {
+    resolve: 'gatsby-plugin-sitemap',
+    options: {
+      excludes: ['**/404/', '**/404.html'],
+    },
   }],
 };
 

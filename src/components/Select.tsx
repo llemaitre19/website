@@ -32,14 +32,14 @@ function Select(props: PropsWithChildren<SelectProps>) {
     className, faIcon, label, name, onChange, value, children,
   } = props;
   return (
-    <label className={className} htmlFor="select">
+    <label className={className} htmlFor={name}>
       <span className={spanClass}>
         {faIcon && <FaIcon icon={faIcon} />}
         {label && `${faIcon && label ? ' ' : ''}${label}`}
       </span>
       <select
         className={selectClass}
-        id="#select"
+        id={name}
         name={name}
         onChange={onChange}
         value={value}

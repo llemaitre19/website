@@ -14,7 +14,11 @@ function ProjectsPage(props: CustomPageProps) {
   const { state } = location;
   const { t } = useTranslation();
   return (
-    <Layout contentTitle={t('projects:content-title')} currentTheme={state && state.currentTheme}>
+    <Layout
+      contentIntro={t('projects:content-intro')}
+      contentTitle={t('projects:content-title')}
+      currentTheme={state && state.currentTheme}
+    >
       <Section
         id="jtsx"
         title={t('projects:jtsx.title')}
@@ -67,8 +71,9 @@ export const query = graphql`
 export function Head(props: HeadProps<any>) {
   return (
     <SEO
-      description={translateFromHeadData(props, 'projects', 'content-title')}
+      description={translateFromHeadData(props, 'projects', 'content-intro')}
       lang={getLanguageFromHeadData(props)}
+      title={translateFromHeadData(props, 'projects', 'content-title')}
     />
   );
 }

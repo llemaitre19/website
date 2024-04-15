@@ -12,7 +12,11 @@ function CppPage(props: CustomPageProps) {
   const { state } = location;
   const { t } = useTranslation();
   return (
-    <Layout contentTitle={t('cpp:content-title')} currentTheme={state && state.currentTheme}>
+    <Layout
+      contentIntro={t('cpp:content-intro')}
+      contentTitle={t('cpp:content-title')}
+      currentTheme={state && state.currentTheme}
+    >
       <Section id="cpp" title="C++">
         {t('cpp:cpp')}
         <WxWidgetsLinkIcon />
@@ -38,8 +42,9 @@ export const query = graphql`
 export function Head(props: HeadProps<any>) {
   return (
     <SEO
-      description={translateFromHeadData(props, 'cpp', 'content-title')}
+      description={translateFromHeadData(props, 'cpp', 'content-intro')}
       lang={getLanguageFromHeadData(props)}
+      title={translateFromHeadData(props, 'cpp', 'content-title')}
     />
   );
 }

@@ -70,8 +70,9 @@ export const query = graphql`
 export function Head(props: HeadProps<any>) {
   return (
     <SEO
-      description={translateFromHeadData(props, 'web', 'content-title')}
+      description={translateFromHeadData(props, 'web', 'content-intro')}
       lang={getLanguageFromHeadData(props)}
+      title={translateFromHeadData(props, 'web', 'content-title')}
     />
   );
 }

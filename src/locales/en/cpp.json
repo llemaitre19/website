@@ -1,5 +1,6 @@
 {
   "c": "Writing code with specific constraints: low level, embedded systems, performance.",
+  "content-intro": "Creation of desktop applications in C++ or writing specific code in C.",
   "content-title": "C/C++ development",
   "cpp": "Creating cross-platform desktop applications (Windows, macOS, Linux, ...) with "
 }

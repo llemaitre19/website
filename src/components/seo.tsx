@@ -6,22 +6,26 @@ type SEOProps = {
   description: string,
   lang: string,
   pathname?: string,
+  title?: string,
 };
 
 export default function SEO(props: PropsWithChildren<SEOProps>) {
-  const { description, lang, pathname } = props;
   const {
-    author, children, siteUrl, title,
+    description, lang, pathname, title,
+  } = props;
+  const {
+    author, children, siteUrl, title: defaultTitle,
   } = useSiteMetadata();
+  const finalTitle = `${title}${title ? ' - ' : ''}${defaultTitle}`;
 
   return (
     <>
       <html lang={lang} />
-      <title>{title}</title>
+      <title>{finalTitle}</title>
       <meta name="author" content={author} />
       <meta name="description" content={description} />
       <meta name="siteUrl" content={`${siteUrl}/${pathname}`} />
-      <meta name="title" content={title} />
+      <meta name="title" content={finalTitle} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       {children}
     </>
@@ -30,6 +34,7 @@ export default function SEO(props: PropsWithChildren<SEOProps>) {
 
 SEO.defaultProps = {
   pathname: 'test',
+  title: '',
 };
 
 // Workaround function to use translated content inside meta tag.

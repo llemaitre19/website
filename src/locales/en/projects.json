@@ -1,4 +1,5 @@
 {
+  "content-intro": "Personal public projects under GPL-3.0 license.",
   "content-title": "Open-Source projects",
   "jtsx": {
     "description": "JSX/TSX extension for <comp /> to edit JSX code more efficiently.",

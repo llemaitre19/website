@@ -1,5 +1,6 @@
 {
   "c": "Écriture de code avec des contraintes spécifiques : bas niveau, systèmes embarqués, performance.",
+  "content-intro": "Création d'applications de bureau en C++ ou écriture de code spécifique en C.",
   "content-title": "Développement C/C++",
   "cpp": "Création d'applications de bureau multi-plateforme (Windows, macOS, Linux, ...) avec "
 }

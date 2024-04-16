@@ -60,6 +60,7 @@ const config: GatsbyConfig = {
       localeJsonSourceName: 'locale', // name given to `gatsby-source-filesystem` plugin.
       languages: ['fr', 'en'],
       defaultLanguage: 'fr',
+      redirect: true, // Activate redirection based on browser language (only if no language cookie is already set)
       siteUrl: 'https://develem.fr',
       // if you are using trailingSlash gatsby config include it here, as well (the default is
       // 'always')

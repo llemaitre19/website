@@ -2,7 +2,7 @@
   "content-intro": "Projets personnels publics sous licence GPL-3.0.",
   "content-title": "Projets Open Source",
   "jtsx": {
-    "description": "Extension JSX/TSX pour <emacs /> afin d'éditer plus efficacement le code JSX.",
+    "description": "Extension JSX/TSX pour <comp /> afin d'éditer plus efficacement le code JSX.",
     "package-manager": "Disponible dans le gestionnaire de paquet <comp />.",
     "repository": "Code publié sur <comp />.",
     "title": "Paquet jtsx pour Emacs"

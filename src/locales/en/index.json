@@ -1,32 +1,10 @@
 {
   "content-title": "Welcome !",
-  "commitments": {
-    "confidentiality": "Confidentiality.",
-    "quality-code": "Quality code: extensible, maintainable, efficient, following best practices.",
-    "specs-respect": "Respect of specifications and deadlines.",
-    "title": "Commitments"
-  },
-  "job": {
-    "intro": "I offer my developer services in the following areas:",
+  "areas": {
     "desktop-app": "Desktop Applications.",
     "low-level": "Low level programming.",
-    "title": "Freelance Full Stack Developer",
+    "title": "Development areas",
     "web-app": "Web Applications."
-  },
-  "services": {
-    "assignment": {
-      "info": "Long services.",
-      "main": "Assignment: I make my skills available to the client for a specific period of time."
-    },
-    "quotation": {
-      "info": "Services with well-defined content and scope.",
-      "main": "Quotation: after having defined the needs, I establish a cost estimate for carrying out the service which I undertake to respect."
-    },
-    "time-spent": {
-      "info": "Short services.",
-      "main": "Time spent: the service is invoiced according to the completion time."
-    },
-    "title": "Delivery methods"
   },
   "skills": {
     "cpp": "C++",

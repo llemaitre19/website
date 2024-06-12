@@ -56,8 +56,7 @@ function LegalNotices(props: LegalNoticesProps) {
         <NoticeItem title={t('legal-notices:website.creation')}>Loïc Lemaître</NoticeItem>
         <NoticeItem title={t('legal-notices:website.host')}>Github Pages</NoticeItem>
       </NoticeSection>
-      <NoticeSection title="Develem">
-        <NoticeItem title={t('legal-notices:develem.siret')}>917 403 370 00013</NoticeItem>
+      <NoticeSection title="Develem - Loïc Lemaître">
         <NoticeItem title={t('legal-notices:develem.phone')}>
           {t('common:phone-index')}
           6 62 57 34 88

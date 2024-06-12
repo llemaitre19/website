@@ -64,7 +64,7 @@ function Footer() {
           </span>
           <span className={alignDotClass}>
             <FaIcon className={iconClass} icon={faCopyright} />
-            2024 Develem
+            2024 Loïc Lemaître
           </span>
         </div>
       </div>
